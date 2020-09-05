@@ -1,5 +1,5 @@
-# NLP Competition Hosted by DataHack in Analytics Vidhya
-
+# NLP Competition Hosted by DataHack in Analytics Vidhya 
+[Janatahack: Independence Day 2020 ML Hackathon](https://datahack.analyticsvidhya.com/contest/janatahack-independence-day-2020-ml-hackathon)
 ## Problem Statement:
 Given the abstract and title for a set of research articles, predicting the topics for each article included in the test set.\
 There are six tags - 
@@ -24,7 +24,11 @@ non-null values  = 8989 (There are no null/none values)
 * Tools used for modelling - Pytorch,GPU,transformer models (BERT-base-uncased,allenai/scibert_scivocab_uncased) and tokenizers
 * final model - model worked best was allenai/scibert_scivocab_uncased from huggingface, transformer based models
 * To improve further -  feature engineering and text augmentation, tuning hyper-parameters etc.
+              
+**max f1-score - 0.84** 
 
-                
-## OUTPUT f1 score -
-maximum testing score - 0.85
+
+
+[allenai/scibert_scivocab_uncased](https://huggingface.co/allenai/scibert_scivocab_uncased)
+
+Thanks to [Prithvi Jaunjale](https://www.kaggle.com/prithvijaunjale/scibert-multi-label-classification)
